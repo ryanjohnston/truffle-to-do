@@ -1,0 +1,33 @@
+{
+  "name": "truffle-to-do",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanjohnston/truffle-to-do.git"
+  },
+  "author": "ryanj@ryanj.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanjohnston/truffle-to-do/issues"
+  },
+  "homepage": "https://github.com/ryanjohnston/truffle-to-do#readme",
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "lite-server": "^2.5.4",
+    "nodemon": "^2.0.4",
+    "truffle": "^5.1.26",
+    "truffle-contract": "^4.0.31"
+  }
+}
